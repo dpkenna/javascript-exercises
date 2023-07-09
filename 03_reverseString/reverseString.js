@@ -2,6 +2,7 @@ const reverseString = function(string) {
     // Turn string into array
     let stringArray = Array.from(string);
     // Reverse array
+    let reversedArray = stringArray.reverse();
     // Join array back together
 };
 
