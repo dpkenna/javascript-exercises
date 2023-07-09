@@ -3,7 +3,10 @@ const reverseString = function(string) {
     let stringArray = Array.from(string);
     // Reverse array
     let reversedArray = stringArray.reverse();
-    // Join array back together
+    // Join array back together WITHOUT COMMAS
+    let reversedString = reversedArray.join('');
+
+    return reversedString;
 };
 
 // Do not edit below this line
