@@ -1,4 +1,4 @@
-const removeFromArray = function(array, removeValue) {
+const removeFromArray = function(initialArray, ...removeValues) {
     // Loop through the values to remove
     // If value not found, ignore
     // Loop through the array
