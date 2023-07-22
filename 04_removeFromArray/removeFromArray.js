@@ -1,9 +1,20 @@
-const removeFromArray = function(initialArray, ...removeValues) {
+const removeFromArray = function(array, ...removeValues) {
     // Loop through the values to remove
-    // If value not found, ignore
-    // Loop through the array
-    // Get the index of the array
-    // Remove the value
+    for (value in removeValues) {
+        // Loop through the array
+        for (item in array) {
+            // Get the index of the array
+            index = array.indexOf(value);
+            // If value not found, ignore
+            if (index == -1) {
+                return;
+            } else {
+                // Remove the value
+                array.splice(index, 1);
+            }
+        }
+    }
+return array;
 };
 
 // Do not edit below this line
