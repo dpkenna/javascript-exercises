@@ -1,9 +1,9 @@
 const removeFromArray = function(array, ...removeValues) {
     // Loop through the values to remove
-    for (value in removeValues) {
+    for (value of removeValues) {
         console.log(value);
         // Loop through the array
-        for (item in array) {
+        for (item of array) {
             // Get the index of the array
             index = array.indexOf(value);
             console.log(index);
@@ -16,8 +16,9 @@ const removeFromArray = function(array, ...removeValues) {
             }
         }
     }
-return array;
 };
 
+console.log(removeFromArray([1,2,3], 3,2));
+
 // Do not edit below this line
-module.exports = removeFromArray;
+// module.exports = removeFromArray;
