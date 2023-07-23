@@ -15,6 +15,7 @@ const sumAll = function(firstNum, secondNum) {
         }
     }
     // Return the sum
+    return sum;
 };
 
 // Do not edit below this line
