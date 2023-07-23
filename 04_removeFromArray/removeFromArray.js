@@ -1,21 +1,19 @@
 const removeFromArray = function(array, ...removeValues) {
     // Loop through the values to remove
     for (value of removeValues) {
-        console.log(value);
+        console.log("value: " + value);
         // Loop through the array
         for (item of array) {
             // Get the index of the array
             index = array.indexOf(value);
-            console.log(index);
+            console.log("index: " + index);
             // If value not found, ignore
-            if (index == -1) {
-                return;
-            } else {
-                // Remove the value
+            if (index != -1) {
                 array.splice(index, 1);
             }
         }
     }
+return array;
 };
 
 console.log(removeFromArray([1,2,3], 3,2));
