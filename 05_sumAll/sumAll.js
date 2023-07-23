@@ -1,4 +1,6 @@
 const sumAll = function(firstNum, secondNum) {
+    // Create a variable to store the sum
+    let sum;
     // Return "ERROR" if a negative number is given or if a non-number is given
     if (firstNum < 0 || secondNum < 0 || typeof firstNum != "number" || typeof secondNum != "number") {
         return "ERROR";
@@ -8,11 +10,10 @@ const sumAll = function(firstNum, secondNum) {
         sortArray.sort(function(a,b){return a-b});
         // Loop through the numbers from first to last
         for (let i = sortArray[0]; i <= sortArray[1]; i++){
-        // Add each number to the sum
+            // Add each number to the sum
+            sum += i;
         }
     }
-
-
     // Return the sum
 };
 
