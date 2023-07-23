@@ -12,15 +12,11 @@ const sumAll = function(firstNum, secondNum) {
         for (let i = sortArray[0]; i <= sortArray[1]; i++){
             // Add each number to the sum
             sum += i;
-            console.log(sum);
         }
     }
     // Return the sum
-    console.log(sum);
     return sum;
 };
 
-sumAll(1,10);
-
 // Do not edit below this line
-// module.exports = sumAll;
+module.exports = sumAll;
