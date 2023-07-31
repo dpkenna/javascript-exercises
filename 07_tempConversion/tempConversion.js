@@ -10,6 +10,8 @@ const convertToFahrenheit = function(temperature) {
   // Convert the temperature
   temp = (temperature * 1.8) + 32;
   // Round to nearest single decimal
+  roundedTemp = Number(temp.toFixed(1));
+  return roundedTemp;
 };
 
 // Do not edit below this line
