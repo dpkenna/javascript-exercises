@@ -2,7 +2,7 @@ const convertToCelsius = function(temperature) {
   // Convert the temperature
   temp = (temperature - 32) / 1.8;
   // Round to nearest single decimal
-  roundedTemp = temp.toFixed(1);
+  roundedTemp = Number(temp.toFixed(1));
   return roundedTemp;
 };
 
