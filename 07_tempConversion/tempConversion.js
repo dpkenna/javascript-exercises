@@ -1,5 +1,6 @@
 const convertToCelsius = function(temperature) {
   // Convert the temperature
+  temp = (temperature - 32) / 1.8
   // Round to nearest single decimal
 };
 
