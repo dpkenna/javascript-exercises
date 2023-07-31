@@ -3,6 +3,7 @@ const convertToCelsius = function(temperature) {
   temp = (temperature - 32) / 1.8;
   // Round to nearest single decimal
   roundedTemp = temp.toFixed(1);
+  return roundedTemp;
 };
 
 const convertToFahrenheit = function(temperature) {
