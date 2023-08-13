@@ -36,7 +36,9 @@ const multiply = function(...values) {
 
 const power = function(x, y) {
 	// Raise the first value to the power of the second
+  result = x ** y;
   // Return the total
+  return result;
 };
 
 const factorial = function(x) {
