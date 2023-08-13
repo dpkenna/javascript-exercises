@@ -1,6 +1,8 @@
 const add = function(x, y) {
 	// Add two numbers
+  result = x + y;
   // Return the sum
+  return result;
 };
 
 const subtract = function(x, y) {
