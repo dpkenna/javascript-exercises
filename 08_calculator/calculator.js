@@ -24,7 +24,7 @@ const sum = function(array) {
 };
 
 const multiply = function(...values) {
-  let result = 0;
+  let result = 1;
   // Loop through values
   for (i in values) {
     // Multiply each value
