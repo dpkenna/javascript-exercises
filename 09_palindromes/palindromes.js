@@ -16,5 +16,7 @@ const palindromes = function (string) {
     }
 };
 
+palindromes('Racecar!');
+
 // Do not edit below this line
-module.exports = palindromes;
+// module.exports = palindromes;
