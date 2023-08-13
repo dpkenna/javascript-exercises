@@ -13,8 +13,9 @@ const subtract = function(x, y) {
 };
 
 const sum = function(array) {
-	// Loop through array
-  for (i = 0; i < array.length; i++) {
+	let result = 0;
+  // Loop through array
+  for (i in array) {
     // Add each number to the sum
     result += array[i];
   }
