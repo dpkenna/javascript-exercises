@@ -5,11 +5,9 @@ const palindromes = function (string) {
     noSpaceString = lowString.split(' ').join('');
     // Remove the punctuation
     noPuncString = noSpaceString.replace(/[^a-z0-9]/gi, '');
-    console.log(noPuncString);
     // Reverse the string
     revString = noPuncString.split('').reverse().join('');
     // Compare the strings
-    console.log(revString);
     if (noPuncString == revString) {
         return true;
     } else {
@@ -17,7 +15,6 @@ const palindromes = function (string) {
     }
 };
 
-palindromes('Racecar!');
 
 // Do not edit below this line
-// module.exports = palindromes;
+module.exports = palindromes;
