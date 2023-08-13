@@ -1,5 +1,15 @@
-const findTheOldest = function() {
-
+const findTheOldest = function(array) {
+    // Declare a result array
+    // Loop through the array of objects
+    // If there is a death date
+        // Subtract the birth date from the death date
+    // Else
+        // Subtract the birth date from today's date
+    // Add the result to the result array
+    // Loop through the result array
+    // Compare the items in the array
+    // Return the index of the largest item
+    // Return the object at the same index
 };
 
 // Do not edit below this line
