@@ -6,7 +6,7 @@ const findTheOldest = function(array) {
         // If there is a death date
         if (array[i].yearOfDeath != undefined) {
             // Subtract the birth date from the death date
-            let age = array[i].yearOfDeath - person[i].yearOfBirth;
+            let age = array[i].yearOfDeath - array[i].yearOfBirth;
         } else {
         // Else
             // Subtract the birth date from today's date
