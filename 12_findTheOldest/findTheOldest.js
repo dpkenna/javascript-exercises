@@ -21,6 +21,7 @@ const findTheOldest = function(array) {
     // Get the index of the largest item
     index = resultArray.indexOf(oldest);
     // Return the object at the same index
+    return array[index];
 };
 
 // Do not edit below this line
