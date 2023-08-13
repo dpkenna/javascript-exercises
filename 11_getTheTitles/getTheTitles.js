@@ -4,9 +4,10 @@ const getTheTitles = function(array) {
     // Loop through the objects in the input array
     for (i = 0; i < array.length; i++) {
         // Add the value of title to the result array
-        titles[i] = array.title;
+        titles[i] = array[i].title;
     }
     // Return the result array
+    console.log(titles);
     return titles;
 };
 
