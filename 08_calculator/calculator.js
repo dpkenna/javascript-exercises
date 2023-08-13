@@ -14,8 +14,12 @@ const subtract = function(x, y) {
 
 const sum = function(array) {
 	// Loop through array
-  // Add each number to the sum
+  for (i = 0; i < array.length; i++) {
+    // Add each number to the sum
+    result += array[i];
+  }
   // Return the sum
+  return result;
 };
 
 const multiply = function(...values) {
