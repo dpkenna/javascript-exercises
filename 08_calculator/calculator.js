@@ -43,9 +43,17 @@ const power = function(x, y) {
 
 const factorial = function(x) {
 	// If 0 or 1 return 1
-  // Loop through each value
-  // Multiply each value by the next value and add to total
-  // Return the total
+  if (x == 0 || x == 1) {
+    return 1;
+  } else {
+      // Loop through each value
+      for (i = x - 1; i >= 1; i--) {
+        // Multiply each value by the next value and add to total
+        x *= i;
+      }
+    // Return the total
+    return x;
+  }
 };
 
 // Do not edit below this line
