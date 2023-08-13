@@ -7,7 +7,9 @@ const add = function(x, y) {
 
 const subtract = function(x, y) {
 	// Subtract two numbers
+  result = x - y;
   // Return the difference
+  return result;
 };
 
 const sum = function(array) {
