@@ -6,6 +6,7 @@ const palindromes = function (string) {
     // Remove the punctuation
     noPuncString = noSpaceString.replace(/[^a-z0-9]/gi, '');
     // Reverse the string
+    revString = noPuncString.split('').reverse().join('');
     // Compare the strings
 };
 
