@@ -14,8 +14,10 @@ const findTheOldest = function(array) {
             let age = date.getFullYear() - person[i].yearOfBirth;
         }
         // Add the result to the result array
+        resultArray[i] = age;
     }
     // Compare the items in the result array
+    let oldest = Math.max(...resultArray);
     // Return the index of the largest item
     // Return the object at the same index
 };
