@@ -8,6 +8,11 @@ const palindromes = function (string) {
     // Reverse the string
     revString = noPuncString.split('').reverse().join('');
     // Compare the strings
+    if (string == revString) {
+        return true;
+    } else {
+        return false;
+    }
 };
 
 // Do not edit below this line
