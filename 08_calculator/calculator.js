@@ -24,9 +24,14 @@ const sum = function(array) {
 };
 
 const multiply = function(...values) {
+  let result = 0;
   // Loop through values
-  // Multiply each value
+  for (i in values) {
+    // Multiply each value
+    result *= values[i];
+  }
   // Return the total
+  return result;
 };
 
 const power = function(x, y) {
