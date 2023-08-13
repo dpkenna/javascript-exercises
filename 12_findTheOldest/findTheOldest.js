@@ -2,7 +2,7 @@ const findTheOldest = function(array) {
     // Declare a result array
     let resultArray = [];
     // Loop through the array of objects
-    for (person in array) {
+    for (i = 0; i < array.length; i++) {
         // If there is a death date
         if (person.yearOfDeath != undefined) {
             // Subtract the birth date from the death date
