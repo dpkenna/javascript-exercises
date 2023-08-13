@@ -18,7 +18,8 @@ const findTheOldest = function(array) {
     }
     // Compare the items in the result array
     let oldest = Math.max(...resultArray);
-    // Return the index of the largest item
+    // Get the index of the largest item
+    index = resultArray.indexOf(oldest);
     // Return the object at the same index
 };
 
