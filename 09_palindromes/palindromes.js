@@ -1,7 +1,9 @@
 const palindromes = function (string) {
     // Convert the string to lowercase
     lowString = string.toLowerCase();
-    // Remove the punctuation and spaces
+    // Remove the spaces
+    noSpaceString = lowString.split(' ').join('');
+    // Remove the punctuation
     // Reverse the string
     // Compare the strings
 };
