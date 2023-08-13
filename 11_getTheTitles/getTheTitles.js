@@ -7,6 +7,7 @@ const getTheTitles = function(array) {
         titles[i] = array.title;
     }
     // Return the result array
+    return titles;
 };
 
 // Do not edit below this line
